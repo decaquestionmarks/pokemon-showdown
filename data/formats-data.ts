@@ -1659,6 +1659,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "LC Uber",
 	},
 	weavilealmian: {
+		randomBattleMoves: ["lightspeed", "bulldoze", "pursuit", "swordsdance", "poisonjab"],
+      randomBattleLevel: 80,
+      randomDoubleBattleMoves: ["lightspeed", "bulldoze", "pursuit", "swordsdance", "poisonjab", "fakeout"],
 		tier: "OU",
 		doublesTier: "DUU",
 	},
@@ -2728,7 +2731,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	bastiodon: {
+		randomBattleMoves: ["slack off", "spikes", "stealth rock", "shield beam", "stone edge", "earthquake", "toxic"],
+      randomBattleLevel: 82,
+      randomDoubleBattleMoves: ["slack off", "stealth rock", "spikes", "shield beam", "protect", "toxic", "stone edge"],
 		tier: "UU",
+		doublesTier: "(DUU)",
 	},
 	burmy: {
 		tier: "LC",
@@ -2907,6 +2914,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	hippowdonorren: {
+		randomBattleMoves: ["slack off", "whirlwind", "earthquake", "gunk shot", "fire fang", "toxic", "toxic spikes"],
+      randomBattleLevel: 84,
+      randomDoubleBattleMoves: ["slack off", "whirlwind", "high horsepower", "gunk shot", "protect", "toxic", "toxic spikes"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
@@ -5137,9 +5147,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	xurkitree: {
-		randomBattleMoves: ["dazzlinggleam", "energyball", "hypnosis", "thunderbolt", "voltswitch"],
-		randomBattleLevel: 82,
-		randomDoubleBattleMoves: ["dazzlinggleam", "energyball", "thunderbolt", "voltswitch"],
+		randomBattleMoves: ["thunder", "photon discharge", "volt switch", "energy ball", "dazzling gleam", "thunderbolt", "solar orb"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["thunder", "solar orb", "volt switch", "protect", "energy ball", "dazzling gleam", "thunderbolt", "thunder wave"],
 		randomDoubleBattleLevel: 84,
 		tier: "UU",
 		doublesTier: "(DUU)",
@@ -6208,7 +6218,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	crawcomb: {
-		tier: "RU",
+		randomBattleMoves: ["firelash", "poweruppunch", "rapidspin", "flamecharge", "firstimpression", "outrage", "acrobatics", "crushingice", "stoneedge" ],
+      randomBattleLevel: 88,
+      randomDoubleBattleMoves: ["heatwave", "rockslide", "bulldoze", "chillingwave", "surf", "firelash", "boomburst", "extremespeed", "petalblizzard" ],
+      tier: "RU",
+      doublesTier: "DOU",
 	},
 	ibroxiz: {
 		tier: "LC",
@@ -6229,7 +6243,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	hydrame: {
+ 		randomBattleMoves: ["recover", "defog", "willowisp", "scorching sands", "dragon pulse", "fire blast", "lava plume", "dragon tail", "taunt"],
+      randomBattleLevel: 80,
+      randomDoubleBattleMoves: ["recover", "defog", "willowisp", "scorching sands", "fire blast", "heat wave", "dragon tail", "protect", "taunt"],
 		tier: "OU",
+		doublesTier: "DOU",
 	},
 	vampayar: {
 		tier: "RU",
